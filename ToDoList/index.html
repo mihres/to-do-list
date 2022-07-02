@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>To-Do List</title>
+  <link rel="icon" href="icon.png">
+</head>
+
+<body>
+
+  <div class="header">
+    <h3 style="margin:5px">To-Do List</h3>
+    <input type="text" id="myInput" placeholder="Add Task..." autofocus>
+    <button type="button" class="buttons" id="addButton" onclick="newElement()">Add</button>
+  </div>
+
+  <div id="taskList" class="taskList">
+  </div>
+
+  <div class="container">
+    <button type="button" class="buttons" onclick="removeSelected()">Remove Selected</button>
+    <button type="button" class="buttons" onclick="removeAll()">Remove All</button>
+  </div>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>

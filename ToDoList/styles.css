@@ -1,0 +1,48 @@
+body {
+  margin: 10px auto;
+  min-width: 250px;
+  max-width: 50%;
+  background-color: rgb(145, 145, 145);
+}
+
+.header {
+  background-color: rgb(3, 23, 54);
+  border: 2px solid white;
+  padding: 15px 5px;
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+}
+
+input {
+  margin: 0;
+  text-align: center;
+  border: none;
+  border-radius: 12px;
+  width: 80%;
+  padding: 7px;
+  font-size: 12px;
+}
+
+.taskList {
+  padding: 10px 10px;
+  display: block;
+}
+
+.buttons {
+  background-color: rgb(3, 23, 54);
+  color: white;
+  border: 2px solid white;
+  padding: 5px 11px;
+  display: inline-block;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+.buttons:hover {
+  background-color: rgb(6, 53, 124)
+}
+
+.container {
+  text-align: center;
+}
